@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
           
       - name: Set up Maven version
-        uses: actions/setup-maven@v1
+        uses: s4u/actions/setup-maven@v1
         with:
           java-version: '17'
           maven-version: '3.9.3'
